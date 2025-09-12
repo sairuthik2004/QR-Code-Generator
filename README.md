@@ -1,42 +1,56 @@
-QR-CODE GENERATOR  
+QR CODE GENERATOR
 
-A simple and responsive QR Code Generator built using Python.
-This project allows users to easily generate QR codes for text, URLs, or any custom input.
+A simple and responsive QR Code Generator built using Python and Streamlit.
+This project allows users to instantly generate QR codes for text, URLs, or any custom input with a smooth and interactive web UI.
 
 🚀 Features
 
--> Generate QR codes instantly
+1) Generate QR codes instantly
 
--> Supports text, links, and other data
+2) Supports text, links, and other data
 
--> Responsive UI with smooth animations
+3) Responsive UI with Streamlit
 
--> Download QR codes as image files
+4) Smooth animations and modern design
 
--> Lightweight and easy to use
+5) Download QR codes as image files
+
+6) Lightweight and easy to use
 
 🛠️ Tech Stack
 
 -> Python
 
--> Tkinter / CustomTkinter (for UI)
+-> Streamlit (for UI)
 
--> qrcode & Pillow libraries
+qrcode & Pillow libraries
 
 📦 Installation
 
 Clone the repository:
 
 -> git clone https://github.com/sairuthik2004/QR-Code-Generator.git
-   cd QR-Code-Generator
+cd QR-Code-Generator
 
 
 Install dependencies:
 
-* pip install qrcode[pil]
-* pip install pillow
+-> pip install streamlit qrcode pillow
 
 
 Run the application:
 
-python main.py
+-> streamlit run app.py
+
+
+(Replace app.py with your actual filename if different)
+
+🎯 Usage
+
+-> Open the Streamlit app in your browser.
+
+Enter text or a URL in the input field.
+
+Click Generate QR Code.
+
+Save or download the QR code as an image.
